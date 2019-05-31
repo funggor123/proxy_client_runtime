@@ -2,7 +2,7 @@
 
 Install
 ----------------------
-# 1. Get the installation package
+# 1. Get the installation package (Skip it if you already have)
 # wget https://github.com/s31b18/proxy_client_runtime/raw/master/proxy_client.tar.gz
 # 2. Decompress the installation package
 # tar zxvf proxy_client.tar.gz 
