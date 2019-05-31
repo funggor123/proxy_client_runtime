@@ -17,5 +17,8 @@ Use
 # service pclient start
 # 2. Check the service has started
 # service pclient status
-# 2. Stop the service 
+# 3. Stop the service 
 # service pclient stop
+# 4. Check the public url
+# go to afs_pclient_r
+# cat ngrok/bin/host_url.txt
