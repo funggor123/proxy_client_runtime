@@ -1,11 +1,21 @@
 # Proxy Client Executable
 
-# 1. Clone the installation package
-# git clone https://github.com/s31b18/proxy_client_runtime
-# 2. Decompress the tar
+Install
+----------------------
+# 1. Get the installation package
+# wget https://github.com/s31b18/proxy_client_runtime/raw/master/proxy_client.tar.gz
+# 2. Decompress the installation package
 # tar zxvf proxy_client.tar.gz 
-# 3. Run install.sh
-# sh install.sh
-# 4. Follow the instructions of the install.sh
-# 5. Start the service
+# 3. Go to the decompressed directory
+# cd afs_pclient_r
+# 4. Run install.sh
+# sudo sh install.sh
+----------------------
+Use
+----------------------
+# 1. Start the service
 # service pclient start
+# 2. Check the service has started
+# service pclient status
+# 2. Stop the service 
+# service pclient stop
