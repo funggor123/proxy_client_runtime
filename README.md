@@ -20,5 +20,4 @@ Use
 # 3. Stop the service 
 # service pclient stop
 # 4. Check the public url
-# go to afs_pclient_r
-# cat ngrok/bin/host_url.txt
+# sh wport.sh (Inside the decompressed directory)
